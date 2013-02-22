@@ -3,15 +3,26 @@
 body
 {
 	font-size: 12px;
-	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	font-family: Verdana, Arial, Sans-Serif;
 	margin: 0px;	
 	padding-left:50%;
 	/*background: url(images/bg.gif) center repeat-y;*/
 	background-color: #777;
 }
 
-a {text-decoration: none; color: #fff;}
-a:hover {text-decoration: underline; color: #fff;}
+
+a 	{
+	text-decoration: none;
+	color: #333;
+}
+
+
+a:hover {
+	text-decoration: underline; 
+	/*color: #ccc;*/
+}
+
+
 
 #container
 {
@@ -20,9 +31,10 @@ a:hover {text-decoration: underline; color: #fff;}
 	background-color: #fff;
 }
 
+
 #topheader
 {
-	background-color: #fff;
+	background-color: #ddd;
 	height: 90px;
     text-align: left;
 }
@@ -31,17 +43,37 @@ a:hover {text-decoration: underline; color: #fff;}
 img.topheader
 {	border: none;
 	padding:  10px;
+	padding-right: 1.6em;
 	float: right;
 }
 
 
 #title
 {
-    font-size: 2.0em;
+    font-size: 2.1em;
     color: #333;
-    font-family: verdana;
-    margin: 2em;
-    vertical-align: middle;
+    /*font-family: "Averia Libre", cursive;*/
+    /*font-family: 'Quintessential', cursive;*/
+	/*font-family: 'Junge', serif;*/
+	/*font-family: 'Rufina', serif;*/
+	/*font-family: 'Libre Baskerville', serif;*/
+	/*font-family: 'Gilda Display', serif;*/
+	/*font-family: 'Bitter', serif;*/
+	/*font-family: 'Averia Libre', cursive;*/
+	/*font-family: 'Alike', serif;*/
+	/*font-family: 'Tienne', serif;*/
+	/*font-family: 'Belleza', sans-serif;*/
+	/*font-family: 'Capriola', sans-serif;*/
+	/*font-family: 'ABeeZee', sans-serif;*/
+	/*font-family: 'Signika Negative', sans-serif;*/
+	font-family: 'Numans', sans-serif;
+
+    position: relative; 
+    /*height: 90px;*/
+    top: 35%;
+    margin-top: -45px;
+    margin-left: 1.6em;
+
 }
 
 #navcontainer
@@ -57,17 +89,17 @@ img.topheader
 	font-weight:bold;
 	font-size: 1.1em;
 	text-align:center;
-	color: #fff;
+	color: #333;
 	width: 164px;
 	margin-top:1px;
 	margin-right:1px;
 	float:left;
 }
 
-.navitem:hover	{
+/*.navitem:hover	{
 	background-color: #990000;
 }
-
+*/
 #main
 {
 	padding:15px;
@@ -115,7 +147,7 @@ h1
 	background-color:#900;
 	color: #fff;
 	text-align:center;
-	vertical-align:middle;
+	/*vertical-align:middle;*/
 	height: 20px;
 	padding-top:5px;
 	clear:both;	
