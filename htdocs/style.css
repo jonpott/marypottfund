@@ -7,7 +7,8 @@ body
 	margin: 0px;	
 	padding-left:50%;
 	/*background: url(images/bg.gif) center repeat-y;*/
-	background-color: #777;
+	/*background-color: #777;*/
+	background-color: #002e2e;
 }
 
 
@@ -23,6 +24,11 @@ a:hover {
 }
 
 
+em	{
+	font-weight: bold;
+	font-style: normal;
+}
+
 
 #container
 {
@@ -34,11 +40,10 @@ a:hover {
 
 #topheader
 {
-	background-color: #ddd;
+	background-color: #bbb;
 	height: 90px;
     text-align: left;
 }
-
 
 img.topheader
 {	border: none;
@@ -47,6 +52,32 @@ img.topheader
 	float: right;
 }
 
+
+#captioned_photo
+{
+	float: left;
+	width: 240px;
+	/*border-style: solid;*/
+	/*border-width: 1px;*/
+	background-color: #ccc;
+	margin-right:  1.2em;
+}
+
+
+img.captioned_photo {
+/*	margin: 10px;
+	margin-top: 0px;*/
+	/*border-style: solid;*/
+	/*border-width: 2px;*/
+	border-color: #000;
+	float: left;	
+}
+
+p.captioned_photo {
+	font-size: 0.8em;
+	font-style: italic;
+	line-height: 1.2em;
+}
 
 #title
 {
@@ -78,12 +109,12 @@ img.topheader
 
 #navcontainer
 {
-	background-color: #ddd;
+	background-color: #bbb;
 }
 
 .navitem
 {
-	background-color: #ddd;
+	background-color: #bbb;
 	padding: 5px;
 	text-decoration: none;
 	font-weight:bold;
@@ -130,7 +161,7 @@ img.topheader
 	margin-right: 0px;
 	margin-left: 0px;
 	padding: 3px;
-	text-align:left;
+	text-align:left;fimg
 	clear:both;
 	margin-bottom: 10px;
 }
@@ -150,11 +181,22 @@ h2
 	padding-top:1.2em;
 }
 
+
+h3
+{
+	font-size:1.0em;
+	font-weight:bold;
+	padding-top:1.2em;
+}
+
+
+
 #footer
 {
-	background-color:#900;
-	color: #fff;
+	background-color:#bbb;
+	color: #000;
 	text-align:center;
+	font-size: 0.8em;
 	/*vertical-align:middle;*/
 	/*height: 20px;*/
 	padding-top:5px;
