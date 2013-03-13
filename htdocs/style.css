@@ -55,12 +55,12 @@ img.topheader
 
 #captioned_photo
 {
-	float: left;
+	float: right;
 	width: 240px;
 	/*border-style: solid;*/
 	/*border-width: 1px;*/
 	background-color: #ccc;
-	margin-right:  1.2em;
+	margin-left:  1.2em;
 }
 
 
