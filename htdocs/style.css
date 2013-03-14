@@ -59,8 +59,8 @@ img.topheader
 	width: 240px;
 	/*border-style: solid;*/
 	/*border-width: 1px;*/
-	background-color: #ccc;
-	margin-left:  1.2em;
+	/*background-color: #ccc;*/
+	margin-left:  1.5em;
 }
 
 
@@ -70,6 +70,7 @@ img.captioned_photo {
 	/*border-style: solid;*/
 	/*border-width: 2px;*/
 	border-color: #000;
+	margin-bottom:  10px;
 	float: left;	
 }
 
