@@ -1,0 +1,9 @@
+TODO.txt
+
+
+- Google Analytics code (make sure I actually still have access to something useful)
+- Continue filling out donation page (partially waiting on TB)
+- Spruce things up overall...?  It's a little bland.
+
+- Background color is still giving me fits.
+- Working with this:   http://colorschemedesigner.com/#0031T--9Bg0g0
